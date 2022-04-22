@@ -3,7 +3,7 @@
  * @Author: bubao
  * @Date: 2022-04-22 12:22:27
  * @LastEditors: bubao
- * @LastEditTime: 2022-04-22 15:22:46
+ * @LastEditTime: 2022-04-22 17:49:41
  */
 const { a200, a301, a302 } = require('./11')
 const get5RoleList = [];
@@ -82,7 +82,7 @@ get200List.forEach(v => {
 	}
 	avg200 += v.store;
 })
-avg200 = avg200 / get5RoleList.length;
+avg200 = avg200 / get200List.length;
 
 console.log(avg200, luck200.name);
 console.log(get200List, store200, times200);
